@@ -10,11 +10,7 @@ This project implements a symbol table for a compiler to handle nested scopes us
 - **Finalize Scope (end):** Changes the current level pointer so that it points to the table for the scope surrounding the current level.
 
 ## Implementation Details
-- Implemention Language is C++
+- Implementation Language is C++
 - Implemented using a hash table data structure.
-- Provides efficient handling of nested scopes.
-- Ensures proper linking of symbol tables for variable lookup.
-- Supports insertion and retrieval of variables.
-- Maintains the integrity of scopes during scope initialization and finalization.
-- The symbol table supports certain kind of code provide as the sample code
-- The Implementation of currscope and enclosing scopes is maintained using a Singly Linked List of Hashtable built
+- This symbol table supports specific code which is provided as the sample code
+- The Implementation of currscope and enclosing scopes is maintained using a Singly Linked List of Hashtable which are built specially
